@@ -4,7 +4,7 @@ package Amazon;
 //leetcode problem 792
 import java.util.Map;
 import java.util.HashMap;
-public class NumberOfMatchingSubsequences {
+class Solution {
     public int numMatchingSubseq(String s, String[] words) {
         Map<String,Integer> map = new HashMap<>();
         for(String str:words){
